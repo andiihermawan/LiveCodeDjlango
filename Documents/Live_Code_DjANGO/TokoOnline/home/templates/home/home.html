@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    </head>
+    <body>
+        <header>
+            <div class="row" id="atas">
+                <div class="col-md-12 lg-12">
+                        <a class="navbar" id = "navbar" href="#" id="alpha"><strong>Toko Online</strong></a>
+                        <a class="navbar" href="#" id="alpha"><strong>Home</strong></a>
+                </div>
+        </header>
+        <section>
+            <div class ="foto">
+                <img class ="image" src="static/images/iphone.jpg" />
+                <img class ="image" src="static/images/sepatu.jpg" />
+                <img class ="image" src="static/images/motor.jpg" />
+            </div>
+            <div>
+               <span  class="details1">Iphone X</span><br>
+               <span  class="details1">Rp.15.000.000</span><br>
+               <a  class="details1" href="{% url 'home'%}">Lihat Deatil</a>
+            </div>         
+            <div class ="foto">
+                <img class ="image" src="static/images/kompor.jpg" />
+                <img class ="image" src="static/images/monitor.jpg" />
+                <img class ="image" src="static/images/mobil.jpg" />
+            </div>   
+        </section>
+        <footer>
+        </footer>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    </body>
+</html>

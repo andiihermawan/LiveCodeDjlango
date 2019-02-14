@@ -1,0 +1,37 @@
+#navbar{
+    float: left;
+    color: white;
+    font-style: initial;
+    background-color: teal;
+}   
+
+.navbar{
+    float: left;
+    color: white;
+    font-style: initial;
+}
+
+.row{
+    background-color:LightSeaGreen;
+}
+
+.foto{
+    margin:25px auto;
+    display: table;
+}
+
+.image{
+    margin: 10px;
+}
+
+.details1{
+    margin-left: 150px;
+}
+
+.details2{
+    margin-left: 250px;
+}
+
+.details3{
+    margin-left: 350px;
+}
